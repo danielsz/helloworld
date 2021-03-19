@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {}
+ :aliases {:repl {:extra-deps {nrepl/nrepl {:mvn/version "0.8.3"}
+                               cider/cider-nrepl {:mvn/version "0.25.8"}
+                               org.danielsz/meyvn-nrepl-middleware {:mvn/version "1.1.9"}
+                               org.danielsz/system {:mvn/version "0.4.7"}}}}}
